@@ -16,7 +16,7 @@ Import the project into [Android Studio](https://developer.android.com/studio/) 
 
 ## Install
 
-Either [build](https://developer.android.com/studio/run) and [sign]() within Android Studio, then push to your phone; or download the prebuilt and signed release from [here](), and [sideload](https://www.xda-developers.com/how-to-sideload-install-android-app-apk/) it to your phone.
+Either [build](https://developer.android.com/studio/run) and [sign]() within Android Studio, then push to your phone; or download the prebuilt and signed release from [here](https://github.com/nuktarkhos/aap-survey/releases), and [sideload](https://www.xda-developers.com/how-to-sideload-install-android-app-apk/) it to your phone.
 
 ## Usage
 
