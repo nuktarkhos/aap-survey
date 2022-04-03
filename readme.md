@@ -30,14 +30,14 @@ Completing a survey is done by selecting the options menu in the top right and p
 
 ## FAQ
 
-1. Has the app been thoroughly tested?
+### Has the app been thoroughly tested?
 
 Nope.
 
-2. I've found a bug, what should I do?
+### I've found a bug, what should I do?
 
 Report it on the Issues page above.
 
-3. Can the app be integrated with the website?
+### Can the app be integrated with the website?
 
 Yes, but this would be quite complex, and any changes to the website would run the risk of breaking the integration with the Android app. As such, it is simpler to still have issue entry remaining completely manual.
