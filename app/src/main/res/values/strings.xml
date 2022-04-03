@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Adopt a Path Surveyor</string>
+    <string name="action_settings">Finish survey</string>
+    <string name="survey_fragment_label">Survey details</string>
+    <string name="issues_fragment_label">Survey issues</string>
+    <string name="issue_fragment_label">Add issue</string>
+    <string name="start">Start survey</string>
+    <string name="complete">Continue survey</string>
+    <string name="finish">Finish survey</string>
+    <string name="date_string">Date:</string>
+    <string name="time_string">Time:</string>
+    <string name="date_default_string">01/01/1970</string>
+    <string name="user_string">Surveyor:</string>
+    <string name="user_text">Name</string>
+    <string name="path_string">Path:</string>
+    <string name="weather_string">Weather:</string>
+    <string name="ok_button">OK</string>
+    <string name="ng_string">OS Grid:</string>
+    <string name="latitude_string">Latitude:</string>
+    <string name="longitude_string">Longitude:</string>
+    <string name="disabled_string">Disabled</string>
+    <string name="hyphen">-</string>
+    <string name="na_string">N/A</string>
+    <string name="record_string">Add path issue</string>
+    <string name="issue_string">Issue:</string>
+    <string name="location_string">Location:</string>
+    <string name="notes_string">Notes</string>
+    <string name="photos_string">Photo:</string>
+    <string name="blocked_string">Blocked Drainage</string>
+    <string name="feature_string">Feature failure</string>
+    <string name="obstruction_string">Obstruction</string>
+    <string name="widening_string">Widening</string>
+    <string name="surface_string">Path surface</string>
+    <string name="other_string">Other</string>
+    <string name="unknown_string">Unknown</string>
+    <string name="severity_attention">Requires attention</string>
+    <string name="severity_urgent">Urgent</string>
+    <string name="status_string">Status:</string>
+    <string name="weather_sunny">Sunny</string>
+	<string name="weather_cloudy">Cloudy</string>
+    <string name="weather_overcast">Overcast</string>
+	<string name="weather_showers">Showers</string>
+    <string name="weather_light_rain">Light rain</string>
+	<string name="weather_heavy_rain">Heavy rain</string>
+    <string-array name="weather_strings">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Overcast</item>
+        <item>Showers</item>
+        <item>Light rain</item>
+        <item>Heavy rain</item>
+    </string-array>
+    <string-array name="type_spinner_strings">
+        <item>Blocked drainage</item>
+        <item>Feature failure</item>
+        <item>Obstruction</item>
+        <item>Widening</item>
+        <item>Path surface</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="status_spinner_strings">
+        <item>Requires attention</item>
+        <item>Urgent</item>
+    </string-array>
+    <string name="waiting_for_loc">Waiting for location</string>
+    <string name="no_picture">Photo needed</string>
+    <string name="failed_picture">Failed to take photo</string>
+    <string name="failed_save">Failed to save issue</string>
+    <string name="failed_load">Failed to load issue</string>
+    <string name="no_survey">No survey to finish</string>
+    <string name="report_generated">Report generated</string>
+</resources>

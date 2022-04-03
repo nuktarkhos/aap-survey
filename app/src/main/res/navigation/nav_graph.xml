@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    android:label="@string/survey_fragment_label"
+    app:startDestination="@id/SurveyFragment">
+
+    <fragment
+        android:id="@+id/SurveyFragment"
+        android:name="com.nuktarkhos.aap_survey.SurveyFragment"
+        android:label="@string/survey_fragment_label"
+        tools:layout="@layout/fragment_survey">
+
+        <action
+            android:id="@+id/action_startOrContinueSurvey"
+            app:destination="@id/IssuesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/IssuesFragment"
+        android:name="com.nuktarkhos.aap_survey.IssuesFragment"
+        android:label="@string/issues_fragment_label"
+        tools:layout="@layout/fragment_issues">
+
+        <action
+            android:id="@+id/action_completeSurvey"
+            app:destination="@id/SurveyFragment" />
+        <action
+            android:id="@+id/action_addIssue"
+            app:destination="@id/IssueFragment" />
+        <action
+            android:id="@+id/action_updateIssue"
+            app:destination="@id/IssueFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/IssueFragment"
+        android:name="com.nuktarkhos.aap_survey.IssueFragment"
+        android:label="@string/issue_fragment_label"
+        tools:layout="@layout/fragment_issue" >
+        <action
+            android:id="@+id/action_saveIssue_pop"
+            app:popUpTo="@id/IssuesFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>
